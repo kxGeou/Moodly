@@ -1,0 +1,7 @@
+main brown - #412A1E
+user tab background - #EDE7DF
+light creme - #F1E4D0
+purple - #A382B1
+green - #85BC96
+blue - #828FB1
+ 

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --color-brown : #412A1E;
+    --color-user-tab-background: #EDE7DF;
+    --color-light_creme: #F1E4D0;
+    --color-purple: #A382B1;
+    --color-green: #85BC96;
+    --color-blue: #828FB1; 
+}
+
+
+
+ 
