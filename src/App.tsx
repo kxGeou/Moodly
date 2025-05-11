@@ -1,22 +1,15 @@
-// import { useNavigate } from "react-router-dom";
-
+import Qwe from './assets/protopyte_img/Frame 38.png';
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 export default function App() {
-  // const navigate = useNavigate();
-  // function handleRegister() {
-  //   const userName = localStorage.getItem("UserName");
-  //   if (!userName) {
-  //     navigate("/register");
-  //   } else {
-  //     navigate("/userTab");
-  //   }
-  // }
+ 
 
   return (
-    <main className="p-3">
+    <main className="p-3 flex flex-col items-center gap-36">
       <Header></Header>
-    {/* <button onClick={handleRegister}>qwe</button> */}
+      <Hero></Hero>
+      <img src={Qwe} className='w-full' />
     </main>
   );
 }
