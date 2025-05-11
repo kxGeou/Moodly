@@ -2,10 +2,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { BrowserRouter, Routes, Route } from "react-router";
-import NotFound from './components/notFoundPage.tsx'
-import Register from './components/Register.tsx';
-import UserTab from './components/User-tab.tsx';
-import Layout from './components/Layout.tsx';
+import NotFound from './components/pages/notFoundPage.tsx'
+import Register from './components/pages/Register.tsx';
+import UserTab from './components/pages/User-tab.tsx';
+import Layout from './components/pages/Layout.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
