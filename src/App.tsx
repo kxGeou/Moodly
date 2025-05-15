@@ -6,10 +6,10 @@ export default function App() {
  
 
   return (
-    <main className="p-3 flex flex-col items-center gap-36">
+    <main className="flex flex-col items-center gap-36 p-2">
       <Header></Header>
-      <Hero></Hero>
-      <img src={Qwe} className='w-full' />
+      {/* <Hero></Hero> */}
+      {/* <img src={Qwe} className='w-full' /> */}
     </main>
   );
 }

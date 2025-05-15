@@ -13,7 +13,7 @@ export default function Hero() {
     }
   }
     return (
-        <section className="flex justify-between items-center relative w-full px-12"> 
+        <section className="flex flex-col justify-between items-center relative w-full px-12"> 
             <div className="w-[35rem] flex flex-col gap-2">
                 <h2 className="text-[3rem] font-bold text-brown">Twój Personalny Dziennik Nastroju</h2>
                 <p className="text-xl font-light text-light-brown">Moddly pomoże ci podsumować twoje samopoczucie oraz oczyścić głowe z przemyśleń za pomocą codziennej ankiety oraz notatki</p>
