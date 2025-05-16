@@ -6,9 +6,9 @@ export default function App() {
  
 
   return (
-    <main className="flex flex-col items-center gap-36 p-2">
+    <main className="flex flex-col items-center gap-8 p-2">
       <Header></Header>
-      {/* <Hero></Hero> */}
+      <Hero></Hero>
       {/* <img src={Qwe} className='w-full' /> */}
     </main>
   );
